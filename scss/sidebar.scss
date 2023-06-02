@@ -77,8 +77,10 @@ aside {
         &:hover {
           color: $primary-color;
         }
+        span {
+          margin-right: 5px;
+        }
         i {
-          margin-left: 5px;
           margin-right: 0;
           color: $primary-color;
           font-size: 18px;

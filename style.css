@@ -342,8 +342,10 @@ aside .b-menu a:last-child {
 aside .b-menu a:last-child:hover {
   color: #EDCA70;
 }
+aside .b-menu a:last-child span {
+  margin-right: 5px;
+}
 aside .b-menu a:last-child i {
-  margin-left: 5px;
   margin-right: 0;
   color: #EDCA70;
   font-size: 18px;
