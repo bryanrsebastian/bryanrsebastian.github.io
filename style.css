@@ -80,7 +80,7 @@ section h2:after {
   position: absolute;
   bottom: 0;
   right: 0;
-  background: #a7a7a7;
+  background: #EDCA70;
 }
 section h2 .b-icon {
   position: absolute;
@@ -124,7 +124,7 @@ section h2 .b-icon {
   border-color: #1f1f1f;
 }
 .b-btn-solid-dark:hover i {
-  color: #39b5c1;
+  color: #EDCA70;
 }
 
 .b-row {
@@ -147,7 +147,7 @@ section h2 .b-icon {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  color: #39b5c1;
+  color: #EDCA70;
 }
 
 .fade-enter-active > *,
@@ -212,7 +212,7 @@ section h2 .b-icon {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  background: #39b5c1;
+  background: #000;
   padding: 12px 15px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
@@ -228,11 +228,8 @@ section h2 .b-icon {
     padding: 8px 11px;
   }
 }
-.b-go-top:hover {
-  background: #244a4c;
-}
 .b-go-top:hover i {
-  color: #39b5c1;
+  color: #EDCA70;
 }
 .b-go-top.show {
   display: block;
@@ -242,7 +239,7 @@ section h2 .b-icon {
 }
 .b-go-top i {
   font-size: 24px;
-  color: #272727;
+  color: #eaeaea;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -261,7 +258,7 @@ aside {
   overflow: hidden;
   height: 100%;
   width: 100%;
-  background: #39b5c1;
+  background: #272727;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
@@ -284,7 +281,7 @@ aside .b-image img {
   max-width: 150px;
   display: block;
   margin: auto;
-  padding: 5px;
+  border: 3px solid #EDCA70;
   cursor: pointer;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
@@ -298,7 +295,7 @@ aside .b-image img {
   }
 }
 aside .b-image h1 {
-  color: #1f1f1f;
+  color: #eaeaea;
   font-size: 30px;
   margin: 20px 0;
   -webkit-transition: all 0.5s;
@@ -315,8 +312,8 @@ aside .b-menu a {
   padding: 15px 20px;
   color: #a7a7a7;
   text-decoration: none;
-  border-top: 1px solid #244a4c;
-  background: #173032;
+  border-top: 1px solid #EDCA70;
+  background: #1f1f1f;
   line-height: 1;
   letter-spacing: 1px;
   cursor: pointer;
@@ -324,7 +321,7 @@ aside .b-menu a {
   transition: all 0.5s;
 }
 aside .b-menu a.b-active, aside .b-menu a:hover {
-  background: #255154;
+  background: #3a3a3a;
   color: #eaeaea;
 }
 aside .b-menu a.b-active {
@@ -332,30 +329,28 @@ aside .b-menu a.b-active {
 }
 aside .b-menu a:last-child {
   padding: 21px 20px;
-  background-color: #272727;
-  color: #a7a7a7;
+  background-color: #000;
+  color: #eaeaea;
+  font-weight: 700;
 }
 @media (max-width: 990px) {
   aside .b-menu a:last-child {
-    background-color: #1f1f1f;
+    background-color: #000;
+    color: #EDCA70;
   }
 }
 aside .b-menu a:last-child:hover {
-  background-color: #1f1f1f;
-  color: #eaeaea;
-}
-aside .b-menu a:last-child:hover i {
-  color: #39b5c1;
+  color: #EDCA70;
 }
 aside .b-menu a:last-child i {
   margin-left: 5px;
   margin-right: 0;
-  color: #255154;
+  color: #EDCA70;
   font-size: 18px;
 }
 @media (max-width: 990px) {
   aside .b-menu a:last-child i {
-    color: #39b5c1;
+    color: #EDCA70;
   }
 }
 aside .b-menu a .b-icon {
@@ -370,7 +365,7 @@ aside .b-menu a i {
   transition: all 0.5s;
 }
 aside .b-toggle-btn {
-  background: #272727;
+  background: #1f1f1f;
   padding: 5px;
   border-radius: 2px;
   display: table;
@@ -380,9 +375,6 @@ aside .b-toggle-btn {
   cursor: pointer;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-}
-aside .b-toggle-btn:hover {
-  background: #1f1f1f;
 }
 
 .b-toggle aside {
@@ -452,7 +444,7 @@ aside .b-toggle-btn:hover {
   }
 }
 #about .b-content p i {
-  color: #e5c219;
+  color: #EDCA70;
 }
 @media (min-width: 1201px) {
   #about .b-content .b-about {
@@ -580,7 +572,7 @@ aside .b-toggle-btn:hover {
   top: 0;
   left: 0;
   border-radius: 50%;
-  background-color: #39b5c1;
+  background-color: #EDCA70;
 }
 #experience .b-content .b-details h4 {
   font-size: 16px;
@@ -601,7 +593,7 @@ aside .b-toggle-btn:hover {
 }
 #experience .b-content .b-details p:first-of-type {
   font-style: italic;
-  color: #39b5c1;
+  color: #EDCA70;
 }
 #experience .b-content .b-details ul {
   margin: 5px 0 0;
@@ -626,13 +618,13 @@ aside .b-toggle-btn:hover {
 }
 @media (max-width: 767px) {
   #skills .b-heading .b-section-title,
-#skills .b-heading p {
+  #skills .b-heading p {
     padding-left: 0;
   }
 }
 @media (max-width: 767px) {
   #skills .b-heading .b-section-title {
-    color: #39b5c1;
+    color: #EDCA70;
   }
   #skills .b-heading .b-section-title i {
     display: none;

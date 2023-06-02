@@ -9,6 +9,8 @@ export default [
       "Creating plugins if needed to become the functionality reusable in other developer",
       "Creating SPA using VueJS and connect it to Developed WordPress Website",
       "Creating an API using NodeJS, ExpressJS, and MongoDB",
+      "Integrating famous Payment Gateways in Australia like Till Payment, BPoint, NAB Transact, Secure Pay, eWay, Stripe, and Paypal",
+      "Integrating famous Membership APIs in Australia like Aristocrat, eBet, IGT, Konami, Odyssey, MAX, and MSL",
       "Working on AWS environment when creating an API",
       "Working on Linux command line",
       "Modifying the mockup design if not so good",

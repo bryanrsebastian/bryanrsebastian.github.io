@@ -7,7 +7,7 @@ aside {
   overflow: hidden;
   height: 100%;
   width: 100%;
-  background: $primary-color;
+  background: $secondary-color;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -24,7 +24,7 @@ aside {
       max-width: 150px;
       display: block;
       margin: auto;
-      padding: 5px;
+      border: 3px solid $primary-color;
       cursor: pointer;
       -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
       -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -35,7 +35,7 @@ aside {
       }
     }
     h1 {
-      color: $black;
+      color: $white;
       font-size: 30px;
       margin: 20px 0;
       @include transition;
@@ -51,15 +51,15 @@ aside {
       padding: 15px 20px;
       color: $medium-gray;
       text-decoration: none;
-      border-top: 1px solid $light-bluegreen;
-      background: $dark-bluegreen;
+      border-top: 1px solid $primary-color;
+      background: $black;
       line-height: 1;
       letter-spacing: 1px;
       cursor: pointer;
       @include transition;
       &.b-active,
       &:hover {
-        background: $medium-bluegreen;
+        background: $dark-gray;
         color: $white;
       }
       &.b-active {
@@ -67,22 +67,20 @@ aside {
       }
       &:last-child {
         padding: 21px 20px;
-        background-color: $secondary-color;
-        color: $medium-gray;
+        background-color: $black-0;
+        color: $white;
+        font-weight: 700;
         @media ( max-width: $max-medium ) {
-          background-color: $black;
+          background-color: $black-0;
+          color: $primary-color;
         }
         &:hover {
-          background-color: $black;
-          color: $white;
-          i {
-            color: $primary-color;
-          }
+          color: $primary-color;
         }
         i {
           margin-left: 5px;
           margin-right: 0;
-          color: $medium-bluegreen;
+          color: $primary-color;
           font-size: 18px;
           @media ( max-width: $max-medium ) {
             color: $primary-color;
@@ -102,7 +100,7 @@ aside {
     }
   }
   .b-toggle-btn {
-    background: $secondary-color;
+    background: $black;
     padding: 5px;
     border-radius: 2px;
     display: table;
@@ -111,9 +109,6 @@ aside {
     margin-top: 10px;
     cursor: pointer;
     @include transition;
-    &:hover {
-      background: $black;
-    }
   }
 }
 

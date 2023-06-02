@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://res.cloudinary.com/brscdn/raw/upload/v1623323099/ihover.min_rqtkpl.css">
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
   <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
   <script src="app.js" type="module"></script>
 </head>
@@ -27,7 +27,7 @@
       </div>
       <nav class="b-menu">
         <a v-for="( value, index ) in menu" :href="'#' + index" :class="{ 'b-active' : active_section == index }" @click="changeSection( index, $event )">
-          <lord-icon class="b-icon" :src="value.icon" trigger="click" colors="primary:#eaeaea,secondary:#39b5c1" style="width:30px;height:30px"></lord-icon>
+          <lord-icon class="b-icon" :src="value.icon" trigger="click" colors="primary:#eaeaea,secondary:#EDCA70" style="width:30px;height:30px"></lord-icon>
           <span>{{ value.label }}</span>
         </a>
         <a :href="resume_link" target="_blank">
@@ -36,13 +36,13 @@
         </a>
       </nav>
       <span class="b-toggle-btn" @click="toggle_menu = !toggle_menu">
-        <lord-icon src="https://cdn.lordicon.com/qvzrpodt.json" trigger="click" colors="primary:#eaeaea,secondary:#39b5c1" style="width:32px;height:32px"></lord-icon>
+        <lord-icon src="https://cdn.lordicon.com/qvzrpodt.json" trigger="click" colors="primary:#eaeaea,secondary:#EDCA70" style="width:32px;height:32px"></lord-icon>
       </span>
     </aside>
     <transition-group name="fade" mode="out-in" appear :duration="500" >
       <section id="about" :key="'about'" v-show="active_section == 'about'">
         <h2>
-          <lord-icon class="b-icon" :src="menu.about.icon" trigger="loop" delay="3000" colors="primary:#eaeaea,secondary:#39b5c1" style="width:55px;height:55px"></lord-icon>
+          <lord-icon class="b-icon" :src="menu.about.icon" trigger="loop" delay="3000" colors="primary:#eaeaea,secondary:#EDCA70" style="width:55px;height:55px"></lord-icon>
           <span>{{ menu.about.label }}</span>
         </h2>
         <div class="b-content">
@@ -88,13 +88,13 @@
       </section>
       <section id="experience" :key="'experience'" v-show="active_section == 'experience'">
         <h2>
-          <lord-icon class="b-icon" :src="menu.experience.icon" trigger="loop" delay="3000" colors="primary:#eaeaea,secondary:#39b5c1" style="width:55px;height:55px"></lord-icon>
+          <lord-icon class="b-icon" :src="menu.experience.icon" trigger="loop" delay="3000" colors="primary:#eaeaea,secondary:#EDCA70" style="width:55px;height:55px"></lord-icon>
           <span>{{ menu.experience.label }}</span>
         </h2>
         <div class="b-content">
           <div v-for="item in experience" class="b-row">
             <div class="b-years b-column">
-              <h4>{{ item.year }}<h4>
+              <h4>{{ item.year }}</h4>
             </div>
             <div class="b-details b-column">
               <h4>{{ item.year }}</h4>
@@ -110,7 +110,7 @@
       </section>
       <section id="skills" :key="'skills'" v-show="active_section == 'skills'">
         <h2>
-          <lord-icon class="b-icon" :src="menu.skills.icon" trigger="loop" delay="3000" colors="primary:#eaeaea,secondary:#39b5c1" style="width:55px;height:55px"></lord-icon>
+          <lord-icon class="b-icon" :src="menu.skills.icon" trigger="loop" delay="3000" colors="primary:#eaeaea,secondary:#EDCA70" style="width:55px;height:55px"></lord-icon>
           <span>{{ menu.skills.label }}</span>
         </h2>
         <div class="b-content">
@@ -159,7 +159,7 @@
       </section>
       <section id="masterpiece" :key="'masterpiece'" v-show="active_section == 'masterpiece'">
         <h2>
-          <lord-icon class="b-icon" :src="menu.masterpiece.icon" trigger="loop" delay="3000" colors="primary:#eaeaea,secondary:#39b5c1" style="width:55px;height:55px"></lord-icon>
+          <lord-icon class="b-icon" :src="menu.masterpiece.icon" trigger="loop" delay="3000" colors="primary:#eaeaea,secondary:#EDCA70" style="width:55px;height:55px"></lord-icon>
           <span>{{ menu.masterpiece.label }}</span>
         </h2>
         <div class="b-projects">
