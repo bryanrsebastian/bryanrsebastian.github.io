@@ -14,6 +14,12 @@ export default {
       "percent" : "85",
       "color" : "#c6c5c5"
     },
+    "html" : {
+      "title" : "HTML",
+      "img" : "/imgs/skill-logos/html5.svg",
+      "percent" : "95",
+      "color" : "#ffa968"
+    },
     "reactjs" : {
       "title" : "ReactJS",
       "img" : "/imgs/skill-logos/reactjs.svg",
@@ -26,29 +32,17 @@ export default {
       "percent" : "80",
       "color" : "#69b16c"
     },
-    "linux" : {
-      "title" : "Linux Server",
-      "img" : "/imgs/skill-logos/linux.png",
-      "percent" : "70",
-      "color" : "#ffd659"
+    "css" : {
+      "title" : "CSS",
+      "img" : "/imgs/skill-logos/css3.svg",
+      "percent" : "95",
+      "color" : "#39beff"
     },
-    "vuejs" : {
-      "title" : "VueJS",
-      "img" : "/imgs/skill-logos/vuejs.svg",
-      "percent" : "75",
-      "color" : "#9dcc9f"
-    },
-    "nextjs" : {
-      "title" : "NextJS",
-      "img" : "/imgs/skill-logos/nextjs.svg",
-      "percent" : "60",
-      "color" : "#ffffff"
-    },
-    "tailwind" : {
-      "title" : "Tailwind",
-      "img" : "/imgs/skill-logos/tailwindcss.svg",
-      "percent" : "70",
-      "color" : "#1eb8ba"
+    "sass" : {
+      "title" : "SASS",
+      "img" : "/imgs/skill-logos/sass.svg",
+      "percent" : "85",
+      "color" : "#ff97ba"
     },
     "bootstrap" : {
       "title" : "Bootstrap",
@@ -62,23 +56,11 @@ export default {
       "percent" : "90",
       "color" : "#76dfff"
     },
-    "wordpress" : {
-      "title" : "WordPress",
-      "img" : "/imgs/skill-logos/wordpress.svg",
-      "percent" : "95",
-      "color" : "#2c71a7"
-    },
-    "jquery" : {
-      "title" : "jQuery",
-      "img" : "/imgs/skill-logos/jquery.png",
-      "percent" : "90",
-      "color" : "#2d7cc6"
-    },
-    "sass" : {
-      "title" : "SASS",
-      "img" : "/imgs/skill-logos/sass.svg",
-      "percent" : "85",
-      "color" : "#ff97ba"
+    "js" : {
+      "title" : "JavaScript",
+      "img" : "/imgs/skill-logos/javascript.svg",
+      "percent" : "75",
+      "color" : "#ffec87"
     },
     "json" : {
       "title" : "JSON",
@@ -86,29 +68,29 @@ export default {
       "percent" : "85",
       "color" : "#6fd1ff"
     },
+    "jquery" : {
+      "title" : "jQuery",
+      "img" : "/imgs/skill-logos/jquery.png",
+      "percent" : "90",
+      "color" : "#2d7cc6"
+    },
     "npm" : {
       "title" : "NPM",
       "img" : "/imgs/skill-logos/npm.svg",
       "percent" : "85",
       "color" : "#dc3b3b"
     },
-    "html" : {
-      "title" : "HTML",
-      "img" : "/imgs/skill-logos/html5.svg",
-      "percent" : "95",
-      "color" : "#ffa968"
+    "vuejs" : {
+      "title" : "VueJS",
+      "img" : "/imgs/skill-logos/vuejs.svg",
+      "percent" : "75",
+      "color" : "#9dcc9f"
     },
-    "css" : {
-      "title" : "CSS",
-      "img" : "/imgs/skill-logos/css3.svg",
-      "percent" : "95",
-      "color" : "#39beff"
-    },
-    "js" : {
-      "title" : "JavaScript",
-      "img" : "/imgs/skill-logos/javascript.svg",
-      "percent" : "85",
-      "color" : "#ffec87"
+    "nextjs" : {
+      "title" : "NextJS",
+      "img" : "/imgs/skill-logos/nextjs.svg",
+      "percent" : "60",
+      "color" : "#ffffff"
     },
     "php" : {
       "title" : "PHP",
@@ -121,6 +103,12 @@ export default {
       "img" : "/imgs/skill-logos/mysql.svg",
       "percent" : "85",
       "color" : "#ffa82b"
+    },
+    "wordpress" : {
+      "title" : "WordPress",
+      "img" : "/imgs/skill-logos/wordpress.svg",
+      "percent" : "95",
+      "color" : "#2c71a7"
     },
     "git" : {
       "title" : "Git",
@@ -139,7 +127,13 @@ export default {
       "img" : "/imgs/skill-logos/xd.svg",
       "percent" : "50",
       "color" : "#de73ff"
-    }
+    },
+    "linux" : {
+      "title" : "Linux Server",
+      "img" : "/imgs/skill-logos/linux.png",
+      "percent" : "70",
+      "color" : "#ffd659"
+    },
   },
   "capabilities" : [
     "Scheduling a task or even a whole project when will it be done.",

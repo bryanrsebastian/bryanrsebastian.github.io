@@ -107,7 +107,7 @@ export default {
     "js" : {
       "title" : "JavaScript",
       "img" : "/imgs/skill-logos/javascript.svg",
-      "percent" : "85",
+      "percent" : "75",
       "color" : "#ffec87"
     },
     "php" : {

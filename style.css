@@ -357,9 +357,12 @@ aside .b-menu a:last-child i {
 }
 aside .b-menu a .b-icon {
   margin-left: 0;
+  vertical-align: middle;
 }
 aside .b-menu a span {
   font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
 }
 aside .b-menu a i {
   margin-right: 5px;

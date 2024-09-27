@@ -19,7 +19,7 @@ export default [
       "Attending online discussion if there's a problem on the project",
       "Can also use Adobe Illustrator, PhotoShop, InDesign, and XD application to open the mockup design and use some resource to develop a website",
       "Uses Bitbucket for versioning control",
-      "Uses Foundation 6 and Bootstrap 5 for css framework",
+      "Uses Foundation 6 for css framework",
       "Uses jQuery for JS library",
       "Uses Gulp for task manger",
       "Uses NPM for downloading front-end modules"

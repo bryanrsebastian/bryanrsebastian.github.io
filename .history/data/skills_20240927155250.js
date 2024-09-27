@@ -32,66 +32,6 @@ export default {
       "percent" : "70",
       "color" : "#ffd659"
     },
-    "vuejs" : {
-      "title" : "VueJS",
-      "img" : "/imgs/skill-logos/vuejs.svg",
-      "percent" : "75",
-      "color" : "#9dcc9f"
-    },
-    "nextjs" : {
-      "title" : "NextJS",
-      "img" : "/imgs/skill-logos/nextjs.svg",
-      "percent" : "60",
-      "color" : "#ffffff"
-    },
-    "tailwind" : {
-      "title" : "Tailwind",
-      "img" : "/imgs/skill-logos/tailwindcss.svg",
-      "percent" : "70",
-      "color" : "#1eb8ba"
-    },
-    "bootstrap" : {
-      "title" : "Bootstrap",
-      "img" : "/imgs/skill-logos/bootstrap.svg",
-      "percent" : "85",
-      "color" : "#c09cff"
-    },
-    "foundation" : {
-      "title" : "Foundation",
-      "img" : "/imgs/skill-logos/foundation.svg",
-      "percent" : "90",
-      "color" : "#76dfff"
-    },
-    "wordpress" : {
-      "title" : "WordPress",
-      "img" : "/imgs/skill-logos/wordpress.svg",
-      "percent" : "95",
-      "color" : "#2c71a7"
-    },
-    "jquery" : {
-      "title" : "jQuery",
-      "img" : "/imgs/skill-logos/jquery.png",
-      "percent" : "90",
-      "color" : "#2d7cc6"
-    },
-    "sass" : {
-      "title" : "SASS",
-      "img" : "/imgs/skill-logos/sass.svg",
-      "percent" : "85",
-      "color" : "#ff97ba"
-    },
-    "json" : {
-      "title" : "JSON",
-      "img" : "/imgs/skill-logos/json.png",
-      "percent" : "85",
-      "color" : "#6fd1ff"
-    },
-    "npm" : {
-      "title" : "NPM",
-      "img" : "/imgs/skill-logos/npm.svg",
-      "percent" : "85",
-      "color" : "#dc3b3b"
-    },
     "html" : {
       "title" : "HTML",
       "img" : "/imgs/skill-logos/html5.svg",
@@ -107,7 +47,7 @@ export default {
     "js" : {
       "title" : "JavaScript",
       "img" : "/imgs/skill-logos/javascript.svg",
-      "percent" : "85",
+      "percent" : "75",
       "color" : "#ffec87"
     },
     "php" : {
@@ -121,6 +61,60 @@ export default {
       "img" : "/imgs/skill-logos/mysql.svg",
       "percent" : "85",
       "color" : "#ffa82b"
+    },
+    "sass" : {
+      "title" : "SASS",
+      "img" : "/imgs/skill-logos/sass.svg",
+      "percent" : "85",
+      "color" : "#ff97ba"
+    },
+    "bootstrap" : {
+      "title" : "Bootstrap",
+      "img" : "/imgs/skill-logos/bootstrap.svg",
+      "percent" : "85",
+      "color" : "#c09cff"
+    },
+    "foundation" : {
+      "title" : "Foundation",
+      "img" : "/imgs/skill-logos/foundation.svg",
+      "percent" : "90",
+      "color" : "#76dfff"
+    },
+    "json" : {
+      "title" : "JSON",
+      "img" : "/imgs/skill-logos/json.png",
+      "percent" : "85",
+      "color" : "#6fd1ff"
+    },
+    "jquery" : {
+      "title" : "jQuery",
+      "img" : "/imgs/skill-logos/jquery.png",
+      "percent" : "90",
+      "color" : "#2d7cc6"
+    },
+    "npm" : {
+      "title" : "NPM",
+      "img" : "/imgs/skill-logos/npm.svg",
+      "percent" : "85",
+      "color" : "#dc3b3b"
+    },
+    "vuejs" : {
+      "title" : "VueJS",
+      "img" : "/imgs/skill-logos/vuejs.svg",
+      "percent" : "75",
+      "color" : "#9dcc9f"
+    },
+    "nextjs" : {
+      "title" : "NextJS",
+      "img" : "/imgs/skill-logos/nextjs.svg",
+      "percent" : "60",
+      "color" : "#ffffff"
+    },
+    "wordpress" : {
+      "title" : "WordPress",
+      "img" : "/imgs/skill-logos/wordpress.svg",
+      "percent" : "95",
+      "color" : "#2c71a7"
     },
     "git" : {
       "title" : "Git",
