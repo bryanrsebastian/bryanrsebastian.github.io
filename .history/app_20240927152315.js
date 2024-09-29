@@ -18,7 +18,7 @@ var portfolio = new Vue( {
     return {
       toggle_menu: false,
       active_section: 'about',
-      resume_link: '/imgs/Bryan-Sebastian-Resume-v1.0.0.pdf',
+      resume_link: '/imgs/Bryan-Sebastian-Resume.pdf',
       menu: menu_data,
       education: educ_data,
       achievements : achieve_data,
