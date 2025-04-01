@@ -110,6 +110,12 @@ export default {
       "percent" : "85",
       "color" : "#ffec87"
     },
+    "ts" : {
+      "title" : "TypeScript",
+      "img" : "/imgs/skill-logos/typescript.svg",
+      "percent" : "60",
+      "color" : "#007ACC"
+    },
     "php" : {
       "title" : "PHP",
       "img" : "/imgs/skill-logos/php.svg",
@@ -149,6 +155,7 @@ export default {
     "Assisting my colleagues if they don't know how to do a conflict task.",
     "Creating a clean code with a good comment and eye-catching indention.",
     "Documenting my functionalities, modules, plugins, or API to use by other devs.",
-    "Leading a team on how to manage difficult projects and distribute a task to my team member."
+    "Leading a team on how to manage difficult projects and distribute a task to my team member.",
+    "Deployment of a project using the CI/CD approach in Bitbucket and Google Cloud Platform."
   ]
 }
